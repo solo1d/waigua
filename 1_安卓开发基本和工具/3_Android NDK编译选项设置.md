@@ -5,6 +5,8 @@
 - [Android.mk](#Android.mk)
 - [NDK编译选项设置](#NDK编译选项设置)
 - [各个平台的c代码判断](#各个平台的c代码判断)
+- [NDK目录内容详解](#NDK目录内容详解)
+- 
 
 
 
@@ -132,4 +134,27 @@ Java_com_example_hellojni_HelloJni_stringFromJNI( JNIEnv* env,
     return (*env)->NewStringUTF(env, "Hello from JNI !  Compiled with ABI " ABI ".");
 }
 ```
+
+
+
+
+
+## NDK目录内容详解
+
+- **NDK根目录**
+  - **build**  编译工具
+  - CHANGELOG.md
+  - meta
+  - **platforms**  NDK支持的所有安卓版本的依赖库  .a    .o    .so
+  - prebuilt
+  - python-packges
+  - README.md
+  - shader-tools
+  - simpleperf
+  - **sources ** 源码目录
+  - sysroot
+  - toolchains
+  - wrap.sh
+
+
 
