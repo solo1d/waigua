@@ -8,7 +8,7 @@
 
 ## 框架
 
-![Android系统框架](5_native层与java层之jni接口/png/Android系统框架.jpg)
+![Android系统框架](5_native层与java层之jni接口以及so加载分析/png/Android系统框架.jpg)
 
 ## 注册方式
 
